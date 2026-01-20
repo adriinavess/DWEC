@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanban Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="kanban">
+        <div class="column" data-status="todo">
+            <h3>Tareas por hacer</h3>
+            <div class="card" draggable="true" data-id="1" data-status="todo">Tarea 1</div>
+            <div class="card" draggable="true" data-id="2" data-status="todo">Tarea 2</div>
+        </div>
+        <div class="column" data-status="progress">
+            <h3>En progreso</h3>
+            <div class="card" draggable="true" data-id="3" data-status="progress">Tarea 3</div>
+        </div>
+        <div class="column" data-status="done">
+            <h3>Finalizado</h3>
+        </div>
+    </div>
+    <script src="ejercicio2.js"></script>
+</body>
+</html>

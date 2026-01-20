@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej3 Nuevo Producto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crear Nuevo Producto</h1>
+    <form id="productoForm">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" id="nombre" required>
+            <span class="error" id="errNombre"></span>
+        </div>
+        <div>
+            <label>SKU (mín 5 chars):</label>
+            <input type="text" id="sku" required minlength="5">
+            <span class="error" id="errSku"></span>
+            <span id="validandoSku"></span>
+        </div>
+        <div>
+            <label>Precio (>0):</label>
+            <input type="number" id="precio" min="0.01" step="0.01" required>
+            <span class="error" id="errPrecio"></span>
+        </div>
+        <div>
+            <label>Stock (≥0):</label>
+            <input type="number" id="stock" min="0" required>
+            <span class="error" id="errStock"></span>
+        </div>
+        <div>
+            <label>Categoría:</label>
+            <input type="text" id="categoria" required>
+            <span class="error" id="errCategoria"></span>
+        </div>
+        <button type="submit" id="guardarBtn" disabled>Guardar</button>
+    </form>
+    <div id="mensaje"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Procesador Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="dropZone">Arrastra imágenes aquí (.jpg, .png)</div>
+    <div id="previews"></div>
+    <input type="text" id="watermark" placeholder="Marca de agua" value="© Mi App">
+    <input type="number" id="maxWidth" placeholder="Ancho máximo" value="800">
+    <select id="format">
+        <option value="image/jpeg">JPEG</option>
+        <option value="image/png">PNG</option>
+    </select>
+    <button onclick="processImages()">Procesar y Descargar</button>
+    <script src="ejercicio1.js"></script>
+</body>
+</html>

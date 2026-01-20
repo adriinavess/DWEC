@@ -1,0 +1,10 @@
+[{"pedidoId":1001,"productoId":102,"cantidad":1,"precioUnitario":299.50},
+{"pedidoId":1001,"productoId":103,"cantidad":1,"precioUnitario":45.00},
+{"pedidoId":1002,"productoId":101,"cantidad":1,"precioUnitario":89.99},
+{"pedidoId":1003,"productoId":104,"cantidad":1,"precioUnitario":250.00},
+{"pedidoId":1003,"productoId":105,"cantidad":2,"precioUnitario":65.75},
+{"pedidoId":1004,"productoId":103,"cantidad":2,"precioUnitario":45.00},
+{"pedidoId":1005,"productoId":101,"cantidad":1,"precioUnitario":89.99},
+{"pedidoId":1005,"productoId":105,"cantidad":1,"precioUnitario":65.75},
+{"pedidoId":1006,"productoId":106,"cantidad":1,"precioUnitario":120.00},
+{"pedidoId":1007,"productoId":107,"cantidad":1,"precioUnitario":85.50}]

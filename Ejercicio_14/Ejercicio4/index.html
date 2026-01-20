@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej14.4 - IndexedDB Offline</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f8f9fa; }
+        .producto { border: 1px solid #dee2e6; margin: 10px; padding: 15px; width: 300px; display: inline-block; background: white; border-radius: 8px; }
+        .controles { text-align: center; margin: 20px 0; }
+        button { padding: 12px 24px; font-size: 16px; cursor: pointer; }
+        #status { text-align: center; font-weight: bold; margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Catálogo Offline IndexedDB</h1>
+    <div class="controles">
+        <button onclick="cargarProductos()">Cargar Productos</button>
+        <button onclick="forzarActualizacion()">Forzar Actualización</button>
+    </div>
+    <div id="status"></div>
+    <div id="productos"></div>
+    <script src="script.js"></script>
+</body>
+</html>

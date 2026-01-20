@@ -1,0 +1,7 @@
+[{"id":1001,"usuarioId":1,"fecha":"2023-10-28","estado":"Entregado"},
+{"id":1002,"usuarioId":2,"fecha":"2023-11-05","estado":"Enviado"},
+{"id":1003,"usuarioId":1,"fecha":"2023-11-10","estado":"Procesando"},
+{"id":1004,"usuarioId":3,"fecha":"2023-11-12","estado":"Entregado"},
+{"id":1005,"usuarioId":2,"fecha":"2023-11-15","estado":"Procesando"},
+{"id":1006,"usuarioId":5,"fecha":"2023-11-18","estado":"Enviado"},
+{"id":1007,"usuarioId":6,"fecha":"2023-11-20","estado":"Entregado"}]

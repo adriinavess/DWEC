@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej1 Visualizador Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Visualizador de Productos</h1>
+    <div id="loading">Cargando...</div>
+    <div id="controls">
+        <select id="categoriaFilter"><option>Todas</option></select>
+        <button onclick="sortProducts('asc')">Menor a Mayor</button>
+        <button onclick="sortProducts('desc')">Mayor a Menor</button>
+    </div>
+    <div id="productos"></div>
+    <script src="script.js"></script>
+</body>
+</html>

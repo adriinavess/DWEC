@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej14.1 - Temas sessionStorage</title>
+    <style id="estilos-tema">
+        :root { --bg: white; --txt: black; --card-bg: #f8f9fa; --border: #dee2e6; }
+        body { font-family: Arial, sans-serif; background: var(--bg); color: var(--txt); padding: 20px; transition: all 0.3s; }
+        .producto { border: 1px solid var(--border); margin: 10px; padding: 15px; display: inline-block; width: 300px; background: var(--card-bg); border-radius: 8px; }
+        .controles { margin: 20px 0; text-align: center; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; border: none; border-radius: 4px; font-size: 16px; }
+        button:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <h1>Visualizador Productos - Temas sessionStorage</h1>
+    <div class="controles">
+        <button onclick="cambiarTema('claro')">Tema Claro</button>
+        <button onclick="cambiarTema('oscuro')">Tema Oscuro</button>
+    </div>
+    <div id="productos"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[{"id":101,"nombre":"Teclado Mecánico RGB","sku":"TEC-RGB-001","precio":89.99,"stock":45,"categoria":"Periféricos"},
+{"id":102,"nombre":"Monitor Curvo 27 pulgadas","sku":"MON-CUR-027","precio":299.50,"stock":25,"categoria":"Monitores"},
+{"id":103,"nombre":"Ratón Inalámbrico Ergonómico","sku":"RAT-ERG-003","precio":45.00,"stock":80,"categoria":"Periféricos"},
+{"id":104,"nombre":"Silla Gaming Pro","sku":"SIL-GAM-PRO","precio":250.00,"stock":15,"categoria":"Mobiliario"},
+{"id":105,"nombre":"Webcam HD 1080p","sku":"CAM-HD-1080","precio":65.75,"stock":60,"categoria":"Periféricos"},
+{"id":106,"nombre":"Auriculares Wireless","sku":"AUD-WIR-001","precio":120.00,"stock":35,"categoria":"Audio"},
+{"id":107,"nombre":"SSD 1TB NVMe","sku":"SSD-NVM-1TB","precio":85.50,"stock":50,"categoria":"Almacenamiento"},
+{"id":108,"nombre":"Tarjeta Gráfica RTX 3060","sku":"GPU-RTX-3060","precio":450.00,"stock":10,"categoria":"Componentes"},
+{"id":109,"nombre":"Teclado Numérico","sku":"TEC-NUM-001","precio":25.99,"stock":100,"categoria":"Periféricos"},
+{"id":110,"nombre":"Soporte Monitor Doble","sku":"SUP-MON-DOB","precio":55.00,"stock":20,"categoria":"Mobiliario"}]
